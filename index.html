@@ -14,6 +14,18 @@
 </head>
 
 <body class="is-preload">
+	<script>
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {
+				return;
+			}
+			js = d.createElement(s);
+			js.id = id;
+			js.src = "https://assets.gfycat.com/gfycat.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'gfycat-js'));
+	</script>
 
 	<!-- Header -->
 	<section id="header">
@@ -98,10 +110,12 @@
 							</div>
 						</article>
 						<article>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-							<div class="inner">
-								<h4>Modding</h4>
-								<p>A favored pasttime of mine has always been reverse engineering. Games provide a great testground for new ideas, and some much appreciated programming practice. </p>
+							<!--<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a> -->
+							<div class='gfyitem' data-id=MinorAllJavalina></div>
+
+							<div>
+								<h4 style="margin:auto;">Modding</h4>
+								<p>Games are what made me interested in programming as a kid, and modifying them still provides a great source of motivation and practice. Here, is a custom Gamemode and Stage for the VR rhythm game Audioshield. </p>
 							</div>
 						</article>
 					</div>
